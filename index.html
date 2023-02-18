@@ -1,16 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Pastime</title>
-    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
-    <link href="favicon.png" rel="icon" />
-    <!-- <link href="/assets/main.scss" rel="stylesheet" /> -->
-    <script type="module" crossorigin src="/assets/index-c6a4be50.js"></script>
-    <link rel="stylesheet" href="/assets/index-696df9eb.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
-    <div id="app"></div>
-    
+    <header>
+      <h1 id="header-h1">
+        I'm looking for a LIA-position for an 8 weeks period this autumn 2023!
+      </h1>
+      <p id="header-p">
+        The slotted timeperiod for this LIA in our school schedule is 4/9 -
+        29/10. Though it is possible to adjusting the dates to an earlier time
+        in the fall if that is more convenient for you.
+      </p>
+    </header>
+    <main>
+      <!-- KONTAKTUPPGIFTER -->
+      <div id="sideblock">
+        <img id="portrait-pic" src="ResumeBild.png" alt="Portrait" />
+        <h2 id="name-h2">Anna Eklund</h2>
+        <h3 id="contact-h3">Contact info:</h3>
+        <ul>
+          <li class="contact-li">
+            <i class="bi-envelope-at"></i
+            ><a
+              class="contact-link"
+              href="mailto:anna.eklund@yahoo.se"
+              class="text"
+              >anna.eklund@yahoo.se</a
+            >
+          </li>
+          <li class="contact-li">
+            <i class="bi-telephone"></i> <span>+46730575267</span>
+          </li>
+          <li class="contact-li">
+            <i class="bi-github"></i><a class="contact-link" href="https://github.com/Aurorien"
+              >Github</a
+            >
+          </li>
+          <li class="contact-li">
+            <i class="bi-linkedin"></i
+            ><a
+              class="contact-link"
+              href="https://www.linkedin.com/in/anna-eklund-a57b95234/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <h3 id="skills-h3">Competencies/skills
+          at the time LIA starts:
+        </h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS, SCSS, SASS, Bootstrap</li>
+          <li>Native Javascript</li>
+          <li>UX/UI-design</li>
+          <li>Figma</li>
+          <li>Javascript with frameworks, Node.js, Vue, React</li>
+          <li>Vite</li>
+          <li>Git, Git Bash</li>
+          <li>Agile methods</li>
+          <li>Backend, databases</li>
+          <li>Crossplatform developement</li>
+        </ul>
+      </div>
+      <div id="mainblock">
+        <h2 id="presentation-h2">About</h2>
+        <p id="presentation">
+          Hey there, I'm Anna Eklund, born in '86 and based in Gothenburg. I'm a web developer with a passion for creating beautiful and innovative solutions. Currently, I'm diving deep into the world of front-end development and specializing in fullstack Javascript at IT-Högskolan.
+          I embarked on my coding journey just two years ago, and it was love at first code. I like problem-solving and challenges which have led me to become a fast learner. What started as a curious interest quickly developed into an ardour for creating applications that make people's lives easier and more enjoyable.
+
+          Aside from coding, I'm a cellist in a semiprofessional voluntary symphony orchestra. Playing music has taught me the importance of teamwork, communication, and attention to detail. Which I also have been cultivating when working in store sales and customer support for many years.
+
+          I'm excited to take my skills to the next level and work with a team of like-minded individuals who share my passion for creating innovative solutions. If you're looking for someone who can bring fresh ideas and top-notch code to your team, I'm your person.
+          I'm looking forward to hearing from you and exploring how we can work together and make magic happen.
+
+          Best regards,
+          Anna Eklund
+        </p>
+        <h2>Projects</h2>
+        <div id="projects">
+          <div class="project">
+            <h4 class="project-h4">Farstun</h4>
+            <img class="picture" src="Farstun.png" alt="">
+            <div>
+              <a href="https://aurorien.github.io/Farstun/"><i class="bi-link"></i></a>
+              <a class="project-link" href="https://github.com/Aurorien/Farstun"><i class="bi-github"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <h4 class="project-h4">Spacedome</h4>
+            <img class="picture" src="Spacedome.png" alt="">
+            <div>
+              <a href="https://aurorien.github.io/Spacedome/calender_space_dome.html"><i class="bi-link"></i></a>
+              <a class="project-link" href="https://github.com/Aurorien/Spacedome"><i class="bi-github"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <h4 class="project-h4">Pastime</h4>
+            <img class="picture" src="Pastime.png" alt="">
+            <div>
+              <a href="https://aurorien.github.io/Pastime/"><i class="bi-link"></i></a>
+              <a class="project-link" href="https://github.com/Aurorien/Pastime"><i class="bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div id="xp-block">
+          <div class="xp-box">
+            <h2>Recent experience</h2>
+            <dl>
+              <dt>Service och butiksäljare</dt>
+              <dd>ISS Sweden</dd>
+              <dd class="timespan">· July 2015 - Present ·</dd>
+              <dd>Customer service and sales in Västtrafik shops</dd>
+              <dt>Principal cellist</dt>
+              <dd>Gothia Concentus</dd>
+              <dd class="timespan">· April 2018 - Present ·</dd>
+              <dd>Volontary semiprofessional orchestra association playing
+                filmmusic and gamemusic.
+              </dd>
+              <dt>Fackligt förtroendevald - Huvudarbetsmiljöombud</dt>
+              <dd>Unionen</dd>
+              <dd class="timespan">· Februari 2019 - September 2022 ·</dd>
+              <dd>Main health and safety union representative of the Västtrafik
+                shops. Have performed and documented work enviroment check
+                rounds regularly together with the bosses. Participated in
+                meetings and conveyed desires and needs that my colleagues have
+                expressed. And answered questions from colleagues about the work
+                enviroment and what I could say about then current processes.
+              </dd>
+            </dl>
+          </div>
+          <div class="xp-box">
+            <h2>Education</h2>
+            <dl>
+              <dt>Full stack Javascript developer, web developer
+              </dt>
+              <dd>IT-Högskolan</dd>
+              <dd class="timespan">· augusti 2022 - juni 2024 ·</dd>
+              <dt>Bättre ArbetsMiljö och Facklig Grundkurs
+              </dt>
+              <dd>Unionen</dd>
+              <dd class="timespan">· februari 2019 - maj 2019 ·</dd>
+              <dt>Diploma of Education in Store Sales, Försäljning, handel och
+                marknadsföring
+              </dt>
+              <dd>ABF</dd>
+              <dd class="timespan">· augusti 2014 - juni 2015 ·</dd>
+              <dt>Music, Literature science, Music theatre
+              </dt>
+              <dd>Göteborgs universitet</dd>
+              <dd class="timespan">· augusti 2006 - januari 2012 ·</dd>
+            </dl>
+          </div>
+          <div class="xp-box">
+            <h2 id="lang-h2">Languages</h2>
+            <ul id="lang-ul">
+              <li class="lang-li">Swedish - Native</li>
+              <li class="lang-li">English - Fluent</li>
+              <li class="lang-li">Spanish - Limited working proficiency</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
