@@ -27,37 +27,41 @@
     <main>
       <!-- KONTAKTUPPGIFTER -->
       <div id="sideblock">
-        <img id="portrait-pic" src="ResumeBild.png" alt="Portrait" />
-        <h2 id="name-h2">Anna Eklund</h2>
-        <h3 id="contact-h3">Contact info:</h3>
-        <ul>
-          <li class="contact-li">
-            <i class="bi-envelope-at"></i
-            ><a
-              class="contact-link"
-              href="mailto:anna.eklund@yahoo.se"
-              class="text"
-              >anna.eklund@yahoo.se</a
-            >
-          </li>
-          <li class="contact-li">
-            <i class="bi-telephone"></i> <span>+46730575267</span>
-          </li>
-          <li class="contact-li">
-            <i class="bi-github"></i
-            ><a class="contact-link" href="https://github.com/Aurorien"
-              >Github</a
-            >
-          </li>
-          <li class="contact-li">
-            <i class="bi-linkedin"></i
-            ><a
-              class="contact-link"
-              href="https://www.linkedin.com/in/anna-eklund-a57b95234/"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
+        <div id="sideblock-container">
+          <img id="portrait-pic" src="ResumeBild.png" alt="Portrait" />
+          <div id="sideblockpart-container">
+            <h2 id="name-h2">Anna Eklund</h2>
+            <h3 id="contact-h3">Contact info:</h3>
+            <ul id="contact-ul">
+              <li class="contact-li">
+                <i class="bi-envelope-at"></i
+                ><a
+                  class="contact-link"
+                  href="mailto:anna.eklund@yahoo.se"
+                  class="text"
+                  >anna.eklund@yahoo.se</a
+                >
+              </li>
+              <li class="contact-li">
+                <i class="bi-telephone"></i> <span>+46730575267</span>
+              </li>
+              <li class="contact-li">
+                <i class="bi-github"></i
+                ><a class="contact-link" href="https://github.com/Aurorien"
+                  >Github</a
+                >
+              </li>
+              <li class="contact-li">
+                <i class="bi-linkedin"></i
+                ><a
+                  class="contact-link"
+                  href="https://www.linkedin.com/in/anna-eklund-a57b95234/"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
         <h3 id="skills-h3">Competencies/skills at the time LIA starts:</h3>
         <ul>
           <li>HTML</li>
@@ -75,19 +79,14 @@
         </ul>
       </div>
       <div id="mainblock">
-        <h2 id="presentation-h2">About</h2>
+        <h2 id="presentation-h2">Profile</h2>
         <p id="presentation">
           Hi!
-
           My name is Anna Eklund and I'm a web developer with a passion for creating beautiful and innovative solutions. Currently, I'm diving deep into the world of front-end development and specializing in fullstack Javascript at IT-Högskolan. I embarked on my coding journey just two years ago, and it was love at first code. I like problem-solving and challenges which have led me to become a fast learner. What started as a curious interest quickly developed into an ardour for creating applications that make people's lives easier and more enjoyable.
-
-          Aside from coding, I'm a cellist in a semiprofessional voluntary symphony orchestra. Playing music has taught me the importance of teamwork, communication, and attention to detail. Which I also have been cultivating when working in store sales and customer support for many years.
-
-          I'm excited to take my skills to the next level and work with a team of like-minded individuals who share my passion for creating innovative solutions. If you're looking for someone who can bring fresh ideas and top-notch code to your team, I'm your person. Aside from the LIA internship, I'm also interested in working part time and during summer.
+          Aside from coding, I'm a cellist in a semiprofessional voluntary symphony orchestra. Playing music has taught me the importance of teamwork, communication, and attention to detail. Which I also have been cultivating when working in store sales and customer support for many years. I'm excited to take my skills to the next level and work with a team of like-minded individuals who share my passion for creating innovative solutions. If you're looking for someone who can bring fresh ideas and top-notch code to your team, I'm your person. Besides the LIA internship, I'm also interested in working part time and during summer if there is an opportunity.
           I'm looking forward to hearing from you and exploring how we can work together and make magic happen.
 
-          Best regards,
-          Anna Eklund
+          Best regards, Anna Eklund
         </p>
         <h2>Projects</h2>
         <div id="projects">
@@ -133,12 +132,36 @@
         </div>
         <div id="xp-block">
           <div class="xp-box">
+            <h2 id="edu-h2">Education</h2>
+            <dl>
+              <dt>Full stack Javascript developer, web developer</dt>
+              <dd>IT-Högskolan</dd>
+              <dd class="timespan">· august 2022 - june 2024 ·</dd>
+              <dt>Bättre ArbetsMiljö och Facklig Grundkurs</dt>
+              <dd>Unionen</dd>
+              <dd class="timespan">· february 2019 - may 2019 ·</dd>
+              <dd>
+                Basic education for work environment representatives and union
+                representatives
+              </dd>
+              <dt>Diploma of Education in Store Sales, Trade and Marketing</dt>
+              <dd>ABF</dd>
+              <dd class="timespan">· august 2014 - june 2015 ·</dd>
+              <dt>Music, Literature science, Music theatre</dt>
+              <dd>Göteborgs universitet</dd>
+              <dd class="timespan">· august 2006 - january 2012 ·</dd>
+            </dl>
+          </div>
+          <div class="xp-box">
             <h2>Recent experience</h2>
             <dl>
               <dt>Shop Assistant, Västtrafik-butikerna</dt>
               <dd>ISS Sweden</dd>
               <dd class="timespan">· July 2015 - Present ·</dd>
-              <dd>Customer service and sales person in the Västtrafik shops (public transport in Gothenburg).</dd>
+              <dd>
+                Customer service and sales person in the Västtrafik shops
+                (public transport in Gothenburg).
+              </dd>
               <dt>Principal cellist</dt>
               <dd>Gothia Concentus</dd>
               <dd class="timespan">· April 2018 - Present ·</dd>
@@ -160,26 +183,6 @@
             </dl>
           </div>
           <div class="xp-box">
-            <h2>Education</h2>
-            <dl>
-              <dt>Full stack Javascript developer, web developer</dt>
-              <dd>IT-Högskolan</dd>
-              <dd class="timespan">· august 2022 - june 2024 ·</dd>
-              <dt>Bättre ArbetsMiljö och Facklig Grundkurs</dt>
-              <dd>Unionen</dd>
-              <dd class="timespan">· february 2019 - may 2019 ·</dd>
-              <dd>Basic education for work environment representatives and union representatives</dd>
-              <dt>
-                Diploma of Education in Store Sales, Trade and Marketing
-              </dt>
-              <dd>ABF</dd>
-              <dd class="timespan">· august 2014 - june 2015 ·</dd>
-              <dt>Music, Literature science, Music theatre</dt>
-              <dd>Göteborgs universitet</dd>
-              <dd class="timespan">· august 2006 - january 2012 ·</dd>
-            </dl>
-          </div>
-          <div class="xp-box">
             <h2 id="lang-h2">Languages</h2>
             <ul id="lang-ul">
               <li class="lang-li">Swedish - Native</li>
@@ -188,6 +191,7 @@
                 Spanish - Limited working proficiency
               </li>
             </ul>
+            <h2 id="ref-h2">References available on request</h2>
           </div>
         </div>
       </div>
