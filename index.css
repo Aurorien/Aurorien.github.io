@@ -286,8 +286,8 @@ main {
   #presentation {
     padding-right: 20%;
     max-width: 1000px;
-    font-size: .7rem;
-    line-height: 1.3rem;
+    font-size: .9rem;
+    line-height: 1.2rem;
   }
 
   #projects {
@@ -324,7 +324,7 @@ main {
   #presentation {
     padding-right: 30%;
     max-width: 100%;
-    line-height: 1.7rem;
+    line-height: 1.2rem;
   }
 
   .picture {
