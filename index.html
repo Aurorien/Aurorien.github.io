@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <main>
+      <div id="sideblock">
+        <div id="sideblock-container">
+          <div id="toggleLanguage-div">
+            <button id="toggleLanguage" onclick="toggleLanguage()">
+              <img id="flagIcon" src="svflag.png" alt="SV flag" />
+              <span id="toggleText">Ändra till svenska</span>
+            </button>
+          </div>
+          <div id="portrait-pic-container">
+            <img id="portrait-pic" src="ResumeBild.png" alt="Portrait" />
+          </div>
+          <div id="sideblockpart-container">
+            <h1 id="name">Anna Eklund</h1>
+
+            <!-- <p>Fullstack Developer  <br />| Frontend Developer <br />| Software Developer <br />| Web Developer</p> -->
+            <div id="skills">
+              <h3 id="skills-h3">Skills</h3>
+              <ul id="skills-ul">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>Python</li>
+                <li>PostgreSQL</li>
+                <li>Docker</li>
+                <li>CSS, SCSS, SASS, Bootstrap, Tailwind</li>
+                <li>HTML & HTML5</li>
+                <li>Native JavaScript</li>
+                <li>Cypress</li>
+                <li>Vue</li>
+                <li>React Native</li>
+                <li>Node.js</li>
+                <li>Vite</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Crossplatform</li>
+                <li>Git</li>
+                <li>SCRUM</li>
+                <li>Jira</li>
+                <li id="agile">Agile methods</li>
+                <li>UX/UI-design</li>
+                <li>Figma</li>
+                <li id="basics-skills">basics in C#, Java <br />and OOP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mainblock">
+        <div id="profile-block">
+          <div class="developer-roles">
+            <span class="role">Fullstack Developer</span>
+            <span class="separator">/</span>
+            <span class="role">Frontend Developer</span>
+            <span class="separator">/</span>
+            <span class="role">Software Developer</span>
+            <span class="separator">/</span>
+            <span class="role">Web Developer</span>
+          </div>
+          <h2 id="presentation-h2">Profile</h2>
+          <p id="presentation">I am a creative and curious fullstack engineer with strong frontend experience. I am passionate about problem solving, making clean, efficient and high-quality solutions. Always keen to learn more and share knowledge. 
+            
+            I have professional experience primarily in TypeScript and React, which I have gained as a developer working on large-scale technical projects at global and big data companies. I also have experience in Python, FastAPI, and PostgreSQL. I have been involved in and gained insights into the processes of new development throughout my career as a developer. I have experience working in english and can do that fluently. 
+            
+            I thrive working in an inclusive, caring and supportive environment where we can enjoy and grow. Being part of a team and contribute to solving the technological challenges while having fun and sharing knowledge.
+          </p>
+        </div>
+
+        <div>
+          <h2 id="projects-h2">Some projects</h2>
+          <div id="projects">
+            <div class="project">
+              <h4 class="project-h4">Spacedome</h4>
+              <p id="spacedome-description" class="project-p">
+                website for a fictional concert hall
+              </p>
+              <img class="picture" src="Spacedome.png" alt="" />
+              <div>
+                <a
+                  href="https://aurorien.github.io/Spacedome/calender_space_dome.html"
+                  target="_blank"
+                  ><i class="bi-link"></i
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://github.com/Aurorien/Spacedome"
+                  target="_blank"
+                  ><i class="bi-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">Pastime</h4>
+              <p id="projects-pastime" class="project-p">entertainment site</p>
+              <img class="picture" src="Pastime.png" alt="" />
+              <div>
+                <a href="https://aurorien.github.io/Pastime/" target="_blank"
+                  ><i class="bi-link"></i
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://github.com/Aurorien/Pastime"
+                  target="_blank"
+                  ><i class="bi-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">Farstun</h4>
+              <p id="projects-farstun" class="project-p">
+                tablet/display app for the vestibule
+              </p>
+              <img class="picture" src="Farstun.png" alt="" />
+              <div>
+                <a href="https://aurorien.github.io/Farstun/" target="_blank"
+                  ><i class="bi-link"></i
+                ></a>
+                <a
+                  class="project-link"
+                  href="https://github.com/Aurorien/Farstun"
+                  target="_blank"
+                  ><i class="bi-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
