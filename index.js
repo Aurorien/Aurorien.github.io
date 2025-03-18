@@ -35,7 +35,7 @@ function toggleLanguage() {
     Jag har professionell erfarenhet främst inom TypeScript och React, som jag har fått genom att arbeta med storskaliga tekniska projekt på globalt och big data- företag. Jag har även erfarenhet av utveckling i Python, FastAPI och PostgreSQL. Jag har varit involverad i och fått insikter i processerna kring nyutveckling under min karriär som utvecklare. Jag har erfarenhet av att arbeta på engelska och kan det flytande.
     
     Personligen trivs jag med att arbeta i en miljö som är inkluderande, omtänksam och blomstrande. Där vi kan skapa värde för användarna och kunderna, och samtidigt ha roligt, växa och dela kunskap.`
-    : `I am a creative and curious fullstack engineer with strong frontend experience. I am passionate about problem solving, learning and making clean, efficient and high-quality solutions. 
+    : `I am a creative and curious fullstack engineer with strong frontend experience. I am passionate about problem solving, learning, and making clean, efficient and high-quality solutions. 
     
     I have professional experience primarily in TypeScript and React, which I have gained as a developer working on large-scale technical projects at global and big data companies. I also have experience in Python, FastAPI, and PostgreSQL. Throughout my career as a developer, I have been involved in and gained insights into the processes of development of new parts of systems. I have experience working in english and can do that fluently. 
     
