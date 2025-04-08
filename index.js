@@ -53,11 +53,15 @@ function toggleLanguage() {
     ? "sida för en fiktionell konsertlokal"
     : "website for a fictional concert hall";
 
+  document.getElementById("projects-farstun").textContent = inEnglish
+    ? "tablet/display-app för farstun"
+    : "tablet/display app for the vestibule";
+
   document.getElementById("projects-pastime").textContent = inEnglish
     ? "minimalistisk underhållningssida"
     : "minimalistic entertainment site";
 
-  document.getElementById("projects-farstun").textContent = inEnglish
-    ? "tablet/display-app för farstun"
-    : "tablet/display app for the vestibule";
+  document.getElementById("projects-blomgott").textContent = inEnglish
+    ? "Ätbara blommor + recept"
+    : "Eatable flowers + recipes";
 }
