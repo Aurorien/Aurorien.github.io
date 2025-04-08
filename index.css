@@ -29,7 +29,6 @@ main {
   flex-direction: column;
   justify-items: center;
   margin: 0;
-  max-width: 100%;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -54,12 +53,17 @@ main {
   padding-bottom: 40px;
 }
 
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5%;
+}
+
 .project {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
-
   margin-bottom: 20px;
   border-color: rgb(45, 11, 77);
   border-style: solid;
@@ -93,6 +97,7 @@ main {
   flex-direction: column;
   color: rgb(24, 24, 24);
   margin: 0;
+  width: 100%;
   padding: 7px 30px 30px 30px;
 }
 
@@ -214,7 +219,6 @@ main {
 
   .project {
     margin-bottom: 0;
-    margin-right: 3%;
     padding: 2%;
     margin-top: 3%;
   }
@@ -249,12 +253,6 @@ main {
     margin-bottom: 0;
   }
 
-  #projects {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5px;
-  }
-
   #sideblock {
     min-width: 250px;
     padding: 0 1% 0 0;
@@ -283,11 +281,6 @@ main {
 
   .project {
     margin-bottom: 0;
-    margin-right: 2.5%;
     padding: 10px 20px 20px 20px;
-  }
-
-  #projects {
-    margin-left: 0;
   }
 }
