@@ -216,6 +216,7 @@ main {
     margin-bottom: 0;
     margin-right: 3%;
     padding: 2%;
+    margin-top: 3%;
   }
 
   .project-h4 {
@@ -240,15 +241,18 @@ main {
 
   #presentation-h2 {
     margin-top: 28px;
-  }
-
-  #projects {
-    display: flex;
-    margin-left: 5px;
+    margin-bottom: 20px;
   }
 
   #projects-h2 {
     margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
   }
 
   #sideblock {

@@ -44,12 +44,18 @@ function toggleLanguage() {
   document.getElementById("projects-h2").textContent = inEnglish
     ? "Några projekt"
     : "Some projects";
+
+  document.getElementById("pun-rhyme-gen-description").textContent = inEnglish
+    ? "generera julrim för saker"
+    : "generate x-mas rhymes for items";
+
   document.getElementById("spacedome-description").textContent = inEnglish
     ? "sida för en fiktionell konsertlokal"
     : "website for a fictional concert hall";
+
   document.getElementById("projects-pastime").textContent = inEnglish
-    ? "underhållningssida"
-    : "entertainment site";
+    ? "minimalistisk underhållningssida"
+    : "minimalistic entertainment site";
 
   document.getElementById("projects-farstun").textContent = inEnglish
     ? "tablet/display-app för farstun"
