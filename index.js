@@ -49,6 +49,10 @@ function toggleLanguage() {
     ? "generera julrim för saker"
     : "generate x-mas rhymes for items";
 
+  document.getElementById("robomechanexus-description").textContent = inEnglish
+    ? "register för robot-chip"
+    : "robotic chip registry";
+
   document.getElementById("spacedome-description").textContent = inEnglish
     ? "sida för en fiktionell konsertlokal"
     : "website for a fictional concert hall";
