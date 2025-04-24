@@ -66,6 +66,6 @@ function toggleLanguage() {
     : "minimalistic entertainment site";
 
   document.getElementById("projects-blomgott").textContent = inEnglish
-    ? "Ätbara blommor + recept"
-    : "Eatable flowers + recipes";
+    ? "ätbara blommor + recept"
+    : "eatable flowers + recipes";
 }
